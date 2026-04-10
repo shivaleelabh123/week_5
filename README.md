@@ -13,7 +13,7 @@ NON-INVERTING AMPLIFIER
 Aim
 To design and analyze a non-inverting amplifier using an operational amplifier and study its frequency response.
 
-![Image description](PASTE_FILENAME_HERE)
+![Image description](525.png)
 
 Specifications
 Supply Voltage: ±VCC = ±15 V
@@ -52,6 +52,8 @@ Rf = 4 kΩ
 
 Circuit Diagram
 (Non-inverting amplifier using op-amp with Rf and R1)
+
+![Image description](imgd.jpeg)
 
 Simulation Steps (LTspice)
 
@@ -92,10 +94,14 @@ Vout ≈ 0 V
 This confirms proper biasing of the circuit.
 Small offset voltage may be present due to practical op-amp limitations.
 
+![Image description](521.png)
+
 Transient Analysis
 Observation:
 Input waveform (Vin) is sinusoidal
 Output waveform (Vout) is amplified
+
+![Image description](522.png)
 
 Key Observations:
 Output is in phase with input
@@ -110,7 +116,7 @@ Hence output saturates (clipping occurs)
 AC Analysis
 Frequency Sweep:
 .ac dec 10 1 1G
-
+![Image description](523.png)
 Observation:
 Gain ≈ 13.98 dB
 Gain remains constant at low frequencies
@@ -121,7 +127,7 @@ Internal capacitances of op-amp
 Finite gain-bandwidth product
 
 Bandwidth is limited due to op-amp characteristics.
-
+![Image description](524.png)
 Results, Inference and Interpretation
 
 Results Table

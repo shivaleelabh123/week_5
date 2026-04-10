@@ -154,6 +154,8 @@ VOLTAGE FOLLOWER
 Aim
 To design and analyze a voltage follower (unity gain buffer) and study its frequency response.
 
+![Image description](week5ss5.png)
+
 Specifications
 Supply Voltage: ±VCC = ±15 V
 Input Signal: Vin(pp) = 12 Vpp
@@ -181,6 +183,8 @@ Working Principle
 
 Circuit Diagram
 (Output directly connected to inverting terminal)
+
+![Image description](imge.jpeg)
 
 Simulation Steps (LTspice)
 
@@ -216,12 +220,16 @@ DC Operating Point Analysis
 For Vin = 0 V:
 Vout ≈ 0 V
 
+![Image description](week5ss1.png)
+
 Small offset voltage may appear due to non-ideal behavior.
 
 Transient Analysis
 Observation:
 Input waveform is sinusoidal
 Output waveform is identical
+
+![Image description](week5ss2.png)
 
 Key Observations:
 No phase shift
@@ -238,13 +246,15 @@ AC Analysis
 Frequency Sweep:
 .ac dec 10 1 1G
 
+![Image description](week5ss3.png)
+
 Observation:
 Gain ≈ 0 dB
 Gain remains constant at low frequencies
 Gain decreases at high frequencies
 
 Bandwidth is very high compared to other amplifiers.
-
+![Image description](week5ss4.png)
 Results, Inference and Interpretation
 
 Results Table
